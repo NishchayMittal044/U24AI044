@@ -14,8 +14,10 @@ int main()
     printf("Enter fifth marks :");
     scanf("%f", &m5);
     sum = m1 + m2 + m3 + m4 + m5;
+
+    //Assuming the maximum marks which can be obtained per subject is 100.
     per = sum / 5;
     printf("The total marks is :%f\n", sum);
-    printf("The average of the marks is :%f", per);
+    printf("The percentage of the marks is :%f", per);
     return 0;
 }
